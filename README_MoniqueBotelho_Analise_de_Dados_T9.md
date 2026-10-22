@@ -30,7 +30,7 @@ from datetime import datetime: carregando a biblioteca e carregando a ferramenta
 import csv: carrega a biblioteca nativa do Python usada para ler e escrever arquivos; em formato CSV;
 import pandas as pd: carregamento da bibilioteca pandas;
 from rich.console import Console: traz o Console da biblioteca rich. É ele que desenha tabelas e cores no terminal;
-# MAPEAMENTO DE COLUNAS: 
+# Mapeamento de Colunas: 
 Renomear as colunas originais de uma base de dados para nomes mais claros, amigáveis ou padronizados;
 # Lendo amostra com csv.DictReader: 
 Tenta abrir um arquivo CSV com segurança, lê a primeira linha de dados e trata eventuais erros de leitura.
